@@ -1,6 +1,6 @@
 import unittest
-from kruskal import *
-from graph import *
+from Christofides.kruskal import *
+from Christofides.graph import *
 
 
 class MyTestCase(unittest.TestCase):
@@ -202,5 +202,5 @@ class MyTestCase(unittest.TestCase):
         self.assertEqual(result, expected_result)
 
 
-if __name__ == '__kruskal__':
-    unittest.kruskal()
+if __name__ == '__main__':
+    unittest.main()
